@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IIIDM Kurnool ECE Website">
+    <meta name="author" content="IIITDM Kurnool">
+    <title>Electronics and Communication Department</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+</head>
+
+<body>
+    <div id="full_container">
+        <!-- SideMenu -->
+
+        <div class="BackgroundMenu">
+            <div class="SideMenu">
+                <a  class="MenuCloseBtn" href=""  onclick="menuClicked()"><i
+                        class="fas fa-arrow-left"></i></a>
+
+                <div class="SideMenuInner">
+                    <a href="" class="SideMenuItem">HOME</a>
+                    <hr style="height: 1px; background-color: white; width: 20vw; margin: 10px;">
+
+                    <a href="" class="SideMenuItem">Events</a>
+                    <hr style="height: 1px; background-color: white; width: 20vw; margin: 10px;">
+
+                    <a href="" class="SideMenuItem">IIITDM KURNOOL</a>
+                    <hr style="height: 1px; background-color: white; width: 20vw; margin: 10px;">
+
+                    <a href="contact.html" class="SideMenuItem">Contact</a>
+                    <hr style="height: 1px; background-color: white; width: 20vw; margin: 10px;">
+                </div>
+            </div>
+        </div>
+
+        <div id="id_BodyContainer" class="BodyContainer">
+            <!-- iiitdm + branch -->
+            <header>
+                <div class="w-100 d-flex flex-row justify-content-between align-items-center"
+                    style="background-color: rgba(255, 255, 255, 0.623); padding: 10px; border-radius: 10px; height: 13vh; box-shadow: rgb(0, 0, 0) 0px 5px 15px; ">
+                    <a class="SideMenuBtn" href="javascript:void(0)" onclick="menuClicked()"><i
+                            class="fa fa-bars fa-2x MenuBtn"></i></a>
+                    <div class="d-flex flex-row justify-content-center align-items-center">
+
+                        <div style="width: 1vw;"></div>
+                        <div style="width: 1px; height: 6vh; background-color: var(--clg-green);"></div>
+                        <div style="width: 1vw;"></div>
+                        <img style="height: 7vh;" src="./Images/iiitkLogo.png">
+                    </div>
+
+                    <h1 class="BottomMenu_desktop"
+                        style="flex: 1; padding-left: 20px; font-size: 1.9em; font-weight: 450; color: black;">IIITDM
+                        Kurnool <span style="font-size: 0.7em !important;">- an Institute of National
+                            Importance</span><br>
+                        <spanh>Department of Electronics Engineering</span>
+                    </h1>
+                    <h1 class="BottomMenu_mobile"
+                        style="flex: 1; padding-left: 20px; font-size: 1.9em; font-weight: 450; color: black;">
+                        <spanh>ECE Department</span>
+                    </h1>
+            </header>
+
+
+            <main>
+
+                <section">
+                    <!-- carausel -->
+                    <div id="carousel" class="w-100">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="2000">
+                                    <img src="./Images/bg11.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="1000">
+                                    <img src="./Images/bg12.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="1000">
+                                    <img src="./Images/bg13.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./Images/bg14.jpeg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Notifications starts from here -->
+                        <div class="notification_container d-flex justify-content-start align-items-center ">
+                            <div>
+                                <marquee behavior="scroll" direction="up" scrolldelay="150" onmouseover="stop()"
+                                    onmouseout="start()">
+                                    <div class="event01">
+                                        <p><a href=""> Hello Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit.Voluptatem,voluptatum.<span class="badge bg-warning">New</span></a>
+                                        </p>
+                                    </div>
+
+
+                                    <div class="recruitment">
+                                        <p><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                Similique, rerum in amet sint, id repellat asperiores perferendis quas ratione, doloribus esse vero
+                                                voluptate.<span class="badge bg-warning">New</span></a></p>
+                                    </div>
+
+
+                                    <div class="event02">
+                                        <p><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                Similique, rerum in ametsint, id repellat asperiores perferendis quas ratione, doloribus esse vero
+                                                voluptate.<span class="badge bg-warning">New</span></a></p>
+                                    </div>
+                                    <div class="event03">
+                                        <p><a href="">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                Similique, rerum in amet sint, id repellat asperiores perferendis quas ratione, doloribus esse vero
+                                                voluptate.<span class="badge bg-warning">New</span></a></p>
+                                    </div>
+                                </marquee>
+                            </div>
+                        </div>
+
+                        <!-- navbar -->
+                        <nav style="background-color: black;" class="w-100 d-flex">
+
+                            <div class="nav">
+                                <div id="carouel_arrows">
+                                    <button class="carousel-control-prev" id="previous" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" id="next" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+
+
+                                <div class="nav-items active"><a href="index.html">Home</a></div>
+                                <div class="nav-items"><a href="faculty.html">Faculty</a></div>
+                                <div class="nav-items"><a href="lab.html">Laboratories</a></div>
+                                <div class="nav-items"><a href="gallery.html">Gallery</a></div>
+
+                            </div>
+                    </div>
+                </div>
+        </div>
+        </nav>
+    </div>
+    </section>
+    <br>
+    <section>
+        <div class="lab_container">
+        <div class="lab_intro">
+            <p style="text-align: justify;">Today's electronic product design and development requires the skillful blend of expert hardware and
+                software engineering together with a spirit of creativity and innovation that is also tempered by the
+                practical concerns of manufacturability, cost consciousness, and reliability.
+                <br>
+                <br>
+                Our B.Tech and M.Tech programmes are designed to provide advanced theoretical and practical training of
+                all aspects relevant to the design, development, and production of modern electronic systems and
+                subsystems. Both these programmes prepare the students for a wide range of engineering study and career
+                options, including business, biomedical engineering, computer hardware, the aerospace industry, computer
+                software, nanoelectronics chips, photonics, nanoengineering, robotics, and solar energy harvesting and
+                distribution.
+                <br>
+                <br>
+                The Ph.D. Programme in ECE department is started in July 2019. The available specializations in the
+                Ph.D. Programme are Electric Drives, Signal Processing, Sensors & Instrumentation, VLSI Design, Wireless
+                Communication, and so on.
+            </p>
+
+            <!-- Laboratories Starts from Here -->
+            <div>
+                <h3 class="center"  style="text-shadow: 1.5px -1px rgb(101, 37, 37);">Laboratories:</h3>
+                <br>
+                <div class="labname_container  row-cols-md-3 row-cols-lg-3">
+                    <div class="card lab_card ">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Analog/Digital Electronic Circuits Laboratory</p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">DSP and Communication Laboratory</p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Electric Drives Laboratory</p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Electronic Manufacturing and Prototyping Laboratory</p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"> Microprocessor and Embedded Systems Laboratory</p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">RF and Microwave Integrated Circuits Laboratory </p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Sensing and Instrumentation Laboratory</p>
+                        </div>
+                    </div>
+                    <div class="card lab_card">
+                        <img src="Images/bg12.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">VLSI Design Laboratory</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- List of Equipments -->
+
+        <div class = "d-flex justify-content-center align-items-center w-100" style="flex-direction: column; overflow-x: auto;">
+            <h3 class="center" style="text-shadow: 1.5px -1px rgb(101, 37, 37);">List of Available Equipment:</h3><br>
+            <div class="equipments table">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>S. No</td>
+                            <td>Name of the Equipment</td>
+                            <td>Quantity</td>
+                            <td>Description</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Digital Storage Oscilloscope</td>
+                            <td>21</td>
+                            <td>Used to display the signals with respect to time, voltage, current, frequency, and so on.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Function Generator</td>
+                            <td>21</td>
+                            <td>Used to generate various signals such as square pulse, rectangular pulse, sinusoidal pulse,
+                                and so on.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>NI DAQs, My-RIO and My-DAQ</td>
+                            <td>20</td>
+                            <td>Used to measure the physical phenomenon such as voltage, current, pressure, temperature,
+                                vibration, and so on</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>50v-60A Power Supply</td>
+                            <td>21</td>
+                            <td>Used to produce the supply for various electronic circuits.</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Spectrum Analyzer</td>
+                            <td>1</td>
+                            <td>Used to analyse the frequency component of the signal.</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>
+                                Portable Multimeters</td>
+                            <td>35</td>
+                            <td>Used to measure current, voltage, resistor, and so on.</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Precision Power Supply</td>
+                            <td>1</td>
+                            <td>Used to produce the supply for various electronic circuits.</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Programmable Power Supply</td>
+                            <td>1</td>
+                            <td>Used to produce the controlled supply for various electronic circuits.</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>
+                                AC/DC Motors</td>
+                            <td>13</td>
+                            <td>Used to model the electric drive applications.</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>
+                                8086 Trainer Boards</td>
+                            <td>15</td>
+                            <td>Used to perform the 8086 asssembly programmes with various interfaces such as DAC, ADC,
+                                traffic light, stepper motor, and so on.</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>
+                                ARM7 Trainer Boards</td>
+                            <td>15</td>
+                            <td>Used to perform the ARM7 asssembly/C programmes with various interfaces such as DAC, ADC,
+                                traffic light, stepper motor, and so on.</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>TIVAC Launch PADs</td>
+                            <td>65</td>
+                            <td>Used to develop the embedded systems with high level language.</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>ZYNQ7000 FPGA Evaluation Boards</td>
+                            <td>20</td>
+                            <td>Used to develop the configurable digital circuits.</td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>
+                                MATLAB</td>
+                            <td>Campus-wide License</td>
+                            <td>Used for the mathematical modelling of DSP and Communication.</td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>LABVIEW</td>
+                            <td>25 Licenses</td>
+                            <td>Use for the signal processing, data acquisition, and hardware control.</td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>CADENCE</td>
+                            <td>20 Licenses</td>
+                            <td>Used to design the application specification integrated circuit.</td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>XILINX VIVADO</td>
+                            <td>25 Licenses</td>
+                            <td>Used to develop the FPGA prototype.</td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>PCB Prototyping Machine</td>
+                            <td>1</td>
+                            <td>Used to make a printed circuit board.</td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>
+                                Raspberry Pi Boards</td>
+                            <td>20</td>
+                            <td>Used to develop the embedded systems with high level language.</td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Arduino Boards</td>
+                            <td>50</td>
+                            <td>Used to develop the embedded systems with high level language.</td>
+                        </tr>
+                        <tr>
+                            <td>21</td>
+                            <td>ZC702 FPGA Evaluation Boards</td>
+                            <td>2</td>
+                            <td>Used to develop the configurable digital circuits.</td>
+                        </tr>
+                        <tr>
+                            <td>22</td>
+                            <td>
+                                Analog Discovery Kits</td>
+                            <td>2</td>
+                            <td>Used as a virtual DSO, FG, Spectrum analyzer, and so on.</td>
+                        </tr>
+                        <tr>
+                            <td>23</td>
+                            <td>PsoC 5LP Development Kits</td>
+                            <td>16</td>
+                            <td>Used to develop the configurable analog circuits.</td>
+                        </tr>
+                        <tr>
+                            <td>24</td>
+                            <td>TMS320 Boards</td>
+                            <td>15</td>
+                            <td>Used to perform the operation of digital signal with high level language.</td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>
+                                Digital Trainer Boards</td>
+                            <td>20</td>
+                            <td>Used to design the digital circuits such as full adder, counter, and so on.</td>
+                        </tr>
+                        <tr>
+                            <td>26</td>
+                            <td>Impedance Analyzer</td>
+                            <td>1</td>
+                            <td>Used to analyse the impedance of the circuits and devices</td>
+                        </tr>
+                        <tr>
+                            <td>27</td>
+                            <td>ANSYS</td>
+                            <td>5 Licenses</td>
+                            <td>Used for the simulation of electromagnetic compatibility and antenna analysis.</td>
+                        </tr>
+                        <tr>
+                            <td>28</td>
+                            <td>Microwave Test Benches</td>
+                            <td>5</td>
+                            <td>Used to develop transmission lines, waveguides, antennas, and microwave related designs.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div id="footer_container">
+            <!-- links  -->
+            <div class="footer_items"style="width: 20%;">
+                <div class="useful_links footer_links d-flex justify-content-center align-items-center" style="flex-direction: column;">
+                    <h5>Useful Links</h5>
+                    <ul style="padding-top: 1em;">
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href=""> Contact Us</a></li>
+                        <li><a href=""> About Us</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Director</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <!-- Address -->
+            <div class="footer_items">
+                <div class="footer_links ">
+                    <h5 class="center">Address</h5>
+                    <div class="address">
+                    <p style="padding-top: 1em;">Jagannathagattu Hill,
+                    Kurnool- 518 008, Andhra Pradesh, India.<br>
+                    <strong>Phone:</strong> +91 - 8518 289114 <br>
+                    <strong>Fax:</strong> +91 - 8518 289127 <br>
+                    <strong>Email:</strong> office@iiitk.ac.in <br>
+                    <strong>Work Hours:</strong> 9.00 AM to 5.45 PM
+                    </p>
+                </div>
+                </div>
+            </div>
+            <br>
+            <!-- social Media -->
+            <div class="footer_items" style="width: 20%;">
+                <div class="follow_us footer_links d-flex justify-content-center align-items-center" style="flex-direction: column;">
+                    <h5 class="center">Follow Us</h5>
+                    <div class="icons" style="padding-top: 1em;">
+                        <a href="#"><i class="fa-brands fa-2x fa-square-facebook" style="color: white; padding-right: 15px;"></i></a>
+                        <a href="#"><i class="fa-brands fa-2x fa-twitter" style="color: white; "></i></a>
+                        <a href="#"><i class="fa-brands fa-2x fa-youtube" style="color: white; padding-left: 15px;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- map -->
+            <div class="footer_items" style="width: 30%;">
+                <div class="map footer_links d-flex justify-content-center align-items-center" style="flex-direction: column;">
+                    <div class="address_map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1919.8989124398338!2d78.03530925872192!3d15.761831000000013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5dc3bfcf99645%3A0x52358ddcfb659cb9!2sIIITDM+Kurnool!5e0!3m2!1sen!2sin!4v1565175104868!5m2!1sen!2sin"
+                            width="90%" height="230px" frameborder="0" style="border:0" allowfullscreen="true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c2e91e57eb.js" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
